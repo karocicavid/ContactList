@@ -1,0 +1,53 @@
+import {StyleSheet} from 'react-native';
+
+ export const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+        backgroundColor:'#CFB195'
+    },
+    containerMain:{
+        flex:1,
+    },
+    buttonView:{
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    forButton:{
+        justifyContent:'center',
+        alignItems:'center',
+        height:40,
+        width:97.3,
+        backgroundColor:'#C16916',
+        marginLeft:1,
+        marginRight:1,
+    },
+    buttonText:{
+        fontSize:25,
+        fontWeight:'900'
+    },
+    forInput:{
+        borderStartWidth : 2,
+        width:'50%',
+        borderBottomWidth:1,
+        borderTopWidth:1,
+        borderLeftWidth:1,
+        borderRightWidth:1,
+        fontSize:19,
+        fontWeight:'bold'
+    },
+    listView:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'flex-start'
+    },
+    listText:{
+        fontSize:16,
+        fontWeight:'900',
+        borderTopWidth:1,
+        borderBottomWidth:1,
+        borderRightWidth:1
+    },
+})
